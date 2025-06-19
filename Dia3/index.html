@@ -4,37 +4,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario de registro - Mi web</title>
 </head>
 
 <body>
-    <form action="">
+    <form action="" method="post">
         <!--Div Nombres-->
         <div>
-            Nombres: <input type="text" placeholder="George"> <br>
+            Nombres: <input type="text" placeholder="George" id="Names" name="Nombres" maxlength="50"> <br>
         </div> <br>
 
         <!--Div Apellidos-->
         <div>
-            Apellidos: <input type="text" placeholder="Jones, Johnson"> <br>
-        </div> <br>
+            Apellidos: <input type="text" placeholder="Jones, Johnson" id="Apellidos" name="Apellidos" maxlength="50"> <br>
+        </div> <br> 
 
         <!--Div Correo Electrónico-->
         <div>
-            Email: <input type="text" placeholder="GeorgeJones@email.com">
+            Email: <input type="email" placeholder="GeorgeJones@email.com" id="correoelectronico" name="Email">
         </div> <br>
 
         <!--Div Sexo-->
         <div>
             Sexo:
-            <input type="radio" name="hm" value="Hombre"> Hombre
-            <input type="radio" name="hm" value="Mujer"> Mujer
+            <input type="radio" name="hm" value="Hombre" id="gender1" name="Sexo"> Hombre
+            <input type="radio" name="hm" value="Mujer" id="gender2" name="Sexo"> Mujer
         </div> <br>
 
         <!--Div Consentimientos-->
         <div>
-            Deseo recibir información sobre novedades y ofertas <input type="radio" checked="checked">
+            Deseo recibir información sobre novedades y ofertas. <input type="radio" checked="checked" id="consentimientos" name="consentimientos">
         </div> <br>
+
+        <!--Div Verificación-->
+        <div>
+            Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos. <input type="radio">
+        </div> <br>
+
+        <!--Div Botón de envío-->
+        <div>
+            <input type="submit" value="Enviar" id="submit" name="Envío">
+        </div> <br>
+
+        <!--Div Población-->
+        <div>
+            Población: 
+            <select name="Población" id="poblation">
+                <option value="opcion1">Seleccionar</option>
+                <option value="opcion2">Bucaramanga</option>
+                <option value="opcion3">Girón</option>
+                <option value="opcion4">Floridablanca</option>
+                <option value="opcion5">Piedecuesta</option>
+            </select>
+        </div> <br>
+
+        <!--Div Texto Multilinea-->
+        Comentarios:
+        <div>
+            <textarea name="" id=""></textarea>
+        </div>
     </form>
 </body>
 
