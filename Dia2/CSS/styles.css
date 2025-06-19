@@ -1,23 +1,8 @@
 body {
-    
-    background-color:rgb(83, 106, 180)
+    background-color:rgba(228, 228, 226, 0.842)
 }
 
-.Columnas {
-    width: 300px;
-    height: 120px;
-    background-color: aqua;
-}
-
-.ColumnaMedio {
-    width: 300px;
-    height: 330px ;
-    
-    background-color:blue;
-}
-
-.ColumnaDerecha {
-    width: 300px;
-    height: ;
-    background-color:brown;
+img { 
+    width: 250px;
+    border-radius: 50%;
 }
