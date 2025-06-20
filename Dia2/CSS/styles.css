@@ -3,6 +3,11 @@ body {
 }
 
 img { 
-    width: 250px;
+    width: 180px;
     border-radius: 50%;
+}
+
+#infopersonal {
+    border-width: thick;
+    
 }
