@@ -4,6 +4,8 @@
     top: 10px;
     left: 10px;
     z-index: 1;
+    width: 1920px;
+    height: 1080px;
   }
 
 .logoPrime {
@@ -12,13 +14,14 @@
     left: 690px;
     width: 556px;
     height: 313px;
+    z-index: 1;
 }
 
 .logoLupa {
     position: absolute;
     left: 60px;
     top: 40px;
-    
+    z-index: 1;
 }
 
 .favoriteContent {
@@ -27,6 +30,7 @@
     left: 389px;
     width: 1151px;
     height: 60px;
+    z-index: 1;
 }
 
 .nowYouCan {
@@ -35,8 +39,113 @@
     left: 380px;
     width: 1160px;
     height: 102px;
+    z-index: 1;
 }
 
-.alinear {
-    text-align: center;
+.cuadroLogin { 
+    position: absolute;
+    top: 30px;
+    left: 1695px;
+    width: 205px;
+    height: 54px;
+    z-index: 2;
+}
+
+.textLogin {
+    position: absolute;
+    top: 48px;
+    left: 1773px;
+    width: 50px;
+    height: 20px;
+    z-index: 2;
+}
+
+.cuadroSignUp {
+    position: absolute;
+    top: 755px;
+    left: 730px;
+    width: 458px;
+    height: 104px;
+    z-index: 2;
+}
+
+.textSignUp {
+    position: absolute;
+    top: 787px;
+    left: 780px;
+    width: 360px;
+    height: 40px;
+    z-index: 2;
+}
+
+.liveContent {
+    position: absolute;
+    top: 1106px;
+    left: 64px;
+    width: 1792px;
+    height: 567px;
+}
+
+.cuadroPelis {
+    position: absolute;
+    top: 1717px;
+    left: 64px;
+    width: 1792px;
+    height: 724px;
+}
+
+.dontLikeLive {
+    position: absolute;
+    top: 1773px;
+    left: 135px;
+    width: 1664px;
+    height: 60px;
+}
+
+.peliUno {
+    position: absolute;
+    top: 1896px;
+    left: 477px;
+    width: 181px;
+    height: 309px;
+}
+
+.peliDos {
+    position: absolute;
+    top: 1896px;
+    left: 670px;
+    width: 181px;
+    height: 309px;
+}
+
+.peliTres {
+    position: absolute;
+    top: 1896px;
+    left: 863px;
+    width: 180px;
+    height: 309px;
+}
+
+.peliCuatro {
+    position: absolute;
+    top: 1896px;
+    left: 1248px;
+    width: 181px;
+    height: 309px;
+}
+
+.peliCinco {
+    position: absolute;
+    top: 1896px;
+    left: 1055px;
+    width: 181px;
+    height: 309px;
+}
+
+.blueMesage {
+    position: absolute;
+    top: 2286px;
+    left: 207px;
+    width: 1492px;
+    height: 110px;
 }
