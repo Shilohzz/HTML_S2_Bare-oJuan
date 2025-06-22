@@ -229,3 +229,20 @@
     width: 19px;
     height: 27px;
 }
+
+.flechaDerecha {
+    position: absolute;
+    top: 3680px;
+    left: 1575px;
+    width: 19px;
+    height: 27px;
+    transform: scaleX(-1);
+}
+
+.politicasDeUso {
+    position: absolute;
+    top: 4088px;
+    left: 543px;
+    width: 831px;
+    height: 25px;
+}
