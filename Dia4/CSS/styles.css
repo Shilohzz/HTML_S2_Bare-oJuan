@@ -1,11 +1,3 @@
-.contenedorFondo {
-    position: relative;
-    width: 100%;
-    height: 100vh; 
-    overflow: hidden;
-
-}
-
 .fondo {   
     object-fit: cover;
     position: absolute;
@@ -43,4 +35,8 @@
     left: 380px;
     width: 1160px;
     height: 102px;
+}
+
+.alinear {
+    text-align: center;
 }
