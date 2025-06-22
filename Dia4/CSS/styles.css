@@ -1,0 +1,38 @@
+.contenedorFondo {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* altura completa de la pantalla */
+    overflow: hidden;
+
+}
+
+.fondo {   
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+.logoPrime {
+    position: absolute;
+    top: 227px;
+    left: 682px;
+    width: 556px;
+    height: 313px;
+}
+
+.logoLupa {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    
+}
+
+.favoriteContent {
+    position: absolute;
+    top: 517px;
+    left: 389px;
+    width: 1151px;
+    height: 60px;
+}
