@@ -181,3 +181,51 @@
     width: 1382px;
     height: 88px;
 }
+
+.ultMensaje1 {
+    position: absolute;
+    top: 3127px;
+    left: 418px;
+    width: 1118px;
+    height: 125px;
+}
+
+.ultMensaje2 {
+    position: absolute;
+    top: 3296px;
+    left: 181px;
+    width: 1544px;
+    height: 99px;
+}
+
+.MAC {
+    position: absolute;
+    top: 3440px;
+    left: 685px;
+    width: 584px;
+    height: 534px;
+}
+
+.iphone {
+    position: absolute;
+    top: 3606px;
+    left: 386px;
+    width: 256px;
+    height: 219px;
+}
+
+.PC {
+    position: absolute;
+    top: 3587px;
+    left: 1261px;
+    width: 271px;
+    height: 238px;
+}
+
+.flechaIzquierda {
+    position: absolute;
+    top: 3689px;
+    left: 305px;
+    width: 19px;
+    height: 27px;
+}
