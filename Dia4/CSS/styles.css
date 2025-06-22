@@ -149,3 +149,35 @@
     width: 1492px;
     height: 110px;
 }
+
+.cuadritoAzul {
+    position: absolute;
+    top: 2467px;
+    left: 64px;
+    width: 1792px;
+    height: 567px;
+}
+
+.cancelAnyTime {
+    position: absolute;
+    top: 2546px;
+    left: 560px;
+    width: 800px;
+    height: 60px;
+}
+
+.simboloX {
+    position: absolute;
+    top: 2650px;
+    left: 876px;
+    width: 169px;
+    height: 169px;
+}
+
+.ifDontYouMsg {
+    position: absolute;
+    top: 2881px;
+    left: 269px;
+    width: 1382px;
+    height: 88px;
+}
