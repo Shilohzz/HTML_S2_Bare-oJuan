@@ -1,8 +1,8 @@
 .fondo {   
     object-fit: cover;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 10px;
+    left: 10px;
     z-index: 1;
   }
 
