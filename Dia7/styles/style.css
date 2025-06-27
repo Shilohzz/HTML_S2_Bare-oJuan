@@ -1,5 +1,72 @@
-.primerFondo {
-    position: relative;
-    width: 1920px;
-    height: 1080px;
+@font-face {
+    font-family: passengerDisplayBolt;
+    src: url(../fonts/PassengerDisplay-Bold.ttf);
 }
+
+@font-face {
+    font-family: logo;
+    src: url(../fonts/insolent.otf);
+}
+
+.contenedor{
+    position: relative;
+}
+
+.primerFondo{
+    position: relative;
+    width: 100vw;
+    height: auto;
+    display: flex;
+}
+
+.startDayText {
+    position: absolute;
+    left: 425px;
+    font-family: passengerDisplayBolt;
+    color: whitesmoke;
+    top: 150px;
+    font-size: 60px;
+}
+
+.withCoffe {
+
+    position: absolute;
+    left: 390px;
+    font-family: passengerDisplayBolt;
+    color: whitesmoke;
+    top: 670px;
+    font-size: 60px;
+}
+
+.logo {
+    font-family: logo;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    color: white;
+}
+
+.contenedorMenu {   
+    color: white;
+    position: absolute;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px; 
+    top: 14px;
+    right: 120px;
+}
+
+.btShopNow {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    background-color: #C76E00;
+    border-color: #C76E00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 800px;
+    left: 600px;
+}
+
