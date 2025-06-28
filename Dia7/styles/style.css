@@ -8,16 +8,29 @@
     src: url(../fonts/insolent.otf);
 }
 
-.contenedor{
-    position: relative;
+
+* {
+    margin: 0; /*margin y padding en 0 para eliminar los bordes*/ 
+    padding: 0;
+    box-sizing: border-box; 
 }
+
+
+body {
+    background-color: black;
+    height: 10000px;
+    background-size: cover;
+}
+
 
 .primerFondo{
     position: relative;
     width: 100vw;
     height: auto;
     display: flex;
+    background-repeat: no-repeat;
 }
+
 
 .startDayText {
     position: absolute;
@@ -27,6 +40,7 @@
     top: 150px;
     font-size: 60px;
 }
+
 
 .withCoffe {
 
@@ -38,6 +52,7 @@
     font-size: 60px;
 }
 
+
 .logo {
     font-family: logo;
     position: absolute;
@@ -45,6 +60,7 @@
     left: 150px;
     color: white;
 }
+
 
 .contenedorMenu {   
     color: white;
@@ -55,9 +71,11 @@
     gap: 40px; 
     top: 14px;
     right: 120px;
+    font-family: sans-serif;
 }
 
-.btShopNow {
+
+#botonShop {
     position: absolute;
     width: 140px;
     height: 40px;
@@ -70,3 +88,73 @@
     left: 600px;
 }
 
+
+#botonLearn {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    background-color: #C76E00;
+    border-color: #C76E00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 1400px;
+    left: 600px;
+}
+
+/*Primera taza*/
+.taza1 {
+    position: absolute;
+    top: 1080px;
+}
+
+.textoStory {
+    color: white;
+    font-family: sans-serif;
+}
+
+.ourStory {
+    color: white;
+    font-family: passengerDisplayBolt;
+    font-size: 50px;
+}
+
+
+/*Segunda Taza (Taza con sobre)*/
+#tazaSobre {
+    width: 400px;
+    height: auto;
+}
+
+.titleSecCup {
+    font-family: passengerDisplayBolt;
+    color: white;
+
+}
+
+.textSecCup {
+    font-family: sans-serif;
+    color: white;
+}
+
+
+/*Sección De Productos*/
+.titleProducts {
+    font-family: passengerDisplayBolt;
+    color: white;
+}
+
+.cafeRojo {
+    width: 120px;
+    height: auto;
+}
+
+.whiteCup {
+    width: 120px;
+    height: auto;
+}
+
+.blackCoffee {
+    width: 120px;
+    height: auto;
+}
