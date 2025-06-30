@@ -19,7 +19,7 @@
 body {
     position: relative;
     background-color: black;
-    height: 9000px;
+    height: 5000px;
     background-size: cover;
 }
 
@@ -90,7 +90,6 @@ body {
 
 
 
-
 /*Primera taza*/
 .taza1 {
     position: absolute;
@@ -131,8 +130,8 @@ body {
 
 .botonLearn {
     position: absolute;
-    width: 7.29vw;
-    height: 3.70vh;
+    width: 8.5vw;
+    height: 4.5vh;
     background-color: #efb810;
     display: flex;
     align-items: center;
@@ -147,8 +146,8 @@ body {
 #tazaSobre {
     position: absolute;
     top: 205vh;
-    left: 58vw;
-    width: 550px;
+    left: 68vw;
+    width: 28.65vw;
     height: auto;
 }
 
@@ -173,13 +172,12 @@ body {
 
 .botonLearn2 {
     position: absolute;
-    width: 7.29vw;
-    height: 3.70vh;
+    width: 8.5vw;
+    height: 4.5vh;
     background-color: #efb810;
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 190vh;
     top: 247vh;
     left: 13vw;
 }
@@ -188,12 +186,15 @@ body {
 
 /*Sección De Productos*/
 .titleProducts {
+    position: absolute;
     font-family: passengerDisplayBolt;
     color: white;
+    top: 285vh;
+    left: 5vw;
+    font-size: 90px;
 }
 
 .cafeRojo {
-    margin-top: 90%;
     width: 120px;
     height: auto;
 }
@@ -213,14 +214,15 @@ body {
 
 .contenedorCajas {
     position: relative;
-    top: 1000px;
+    top: 1750px;
     display: flex;
     gap: 10%;
-    margin: 380px   
+    margin: 310px   
 }
 
 
 .boxes {
+    padding-top: 3%;
     font-size: 18px;
     font-family: sans-serif;
     width: 40vw;
@@ -235,7 +237,13 @@ body {
     align-items: center; /*Lleva el texto a la mitad del recuadro, horizontalmente*/
     gap: 20%;
 }
-
+.boxes h3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+}
 
 .learnBoxes {
     width: 140px;
