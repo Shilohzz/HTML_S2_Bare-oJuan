@@ -88,6 +88,47 @@ body {
 }
 
 
+
+
+
+/*Primera taza*/
+.taza1 {
+    position: absolute;
+    width: 45vw;
+    top: 137vh;
+    left: 5vw;
+}
+
+
+.ourStory {
+    position: absolute;
+    color: white;
+    font-family: passengerDisplayBolt;
+    font-size: 4.125vw;
+    top: 152vh;
+    left: 60vw;
+}
+
+
+.lineaBlancaStory {
+    position: absolute;
+    top: 156vh;
+    left: 49vw;
+    width: 9%;
+    height: 2px;
+    background-color: white;
+}
+
+
+.textoStory {
+    position: absolute;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.10vw;
+    top: 164vh;
+    left: 60vw;
+}
+
 .botonLearn {
     position: absolute;
     width: 7.29vw;
@@ -96,48 +137,53 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 130vh;
-    left: 31vw;
+    top: 173vh;
+    left: 60vw;
 }
 
-
-/*Primera taza*/
-.taza1 {
-    position: absolute;
-    width: 700px;
-    top: 1500px;
-    left: 105px;
-}
-
-.textoStory {
-    color: white;
-    font-family: sans-serif;
-}
-
-.ourStory {
-    color: white;
-    font-family: passengerDisplayBolt;
-    font-size: 50px;
-}
 
 
 /*Segunda Taza (Taza con sobre)*/
 #tazaSobre {
-    width: 400px;
+    position: absolute;
+    top: 205vh;
+    left: 58vw;
+    width: 550px;
     height: auto;
-    margin-top: 50%;
 }
 
 .titleSecCup {
+    position: absolute;
     font-family: passengerDisplayBolt;
     color: white;
-
+    font-size: 3vw;
+    top: 215.5vh;
+    left: 13vw;
+    font-size: 3.5vw;
 }
 
 .textSecCup {
+    position: absolute;
     font-family: sans-serif;
     color: white;
+    font-size: 1.50vw;
+    top: 241vh;
+    left: 13vw;
 }
+
+.botonLearn2 {
+    position: absolute;
+    width: 7.29vw;
+    height: 3.70vh;
+    background-color: #efb810;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 190vh;
+    top: 247vh;
+    left: 13vw;
+}
+
 
 
 /*Sección De Productos*/
@@ -147,7 +193,7 @@ body {
 }
 
 .cafeRojo {
-    margin-top: 50%;
+    margin-top: 90%;
     width: 120px;
     height: auto;
 }
