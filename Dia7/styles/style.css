@@ -19,13 +19,12 @@
 body {
     position: relative;
     background-color: black;
-    height: 10000px;
+    height: 9000px;
     background-size: cover;
 }
 
 
 .primerFondo{
-    position: relative;
     width: 100vw;
     height: auto;
     display: flex;
@@ -35,22 +34,21 @@ body {
 
 .startDayText {
     position: absolute;
-    left: 425px;
+    left: 34%;
     font-family: passengerDisplayBolt;
     color: whitesmoke;
-    top: 150px;
-    font-size: 60px;
+    top: 20vh;
+    font-size:  4vw;
 }
 
 
 .withCoffe {
-
     position: absolute;
-    left: 390px;
+    left: 32vw;
     font-family: passengerDisplayBolt;
     color: whitesmoke;
-    top: 670px;
-    font-size: 60px;
+    top: 96vh;
+    font-size: 4.125vw;
 }
 
 
@@ -58,7 +56,7 @@ body {
     font-family: logo;
     position: absolute;
     top: 0;
-    left: 150px;
+    left: 20vw;
     color: white;
 }
 
@@ -66,47 +64,49 @@ body {
 .contenedorMenu {   
     color: white;
     position: absolute;
-    font-size: 10px;
+    font-size: 0.677vw;
     display: flex;
     flex-direction: row;
-    gap: 40px; 
-    top: 14px;
-    right: 120px;
+    gap: 3.125vw;
+    top: 1.296vh;
+    right: 14vw;
     font-family: sans-serif;
 }
 
 
 #botonShop {
+    font-size: 1.3vw;
     position: absolute;
-    width: 140px;
-    height: 40px;
-    background-color: #C76E00;
-    border-color: #C76E00;
+    width: 9vw;
+    height: 5vh;
+    background-color: #efb810;
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 800px;
-    left: 600px;
+    top: 107vh;
+    left: 46%;
 }
 
 
-#botonLearn {
+.botonLearn {
     position: absolute;
-    width: 140px;
-    height: 40px;
-    background-color: #C76E00;
-    border-color: #C76E00;
+    width: 7.29vw;
+    height: 3.70vh;
+    background-color: #efb810;
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 1400px;
-    left: 600px;
+    top: 130vh;
+    left: 31vw;
 }
+
 
 /*Primera taza*/
 .taza1 {
     position: absolute;
-    top: 1080px;
+    width: 700px;
+    top: 1500px;
+    left: 105px;
 }
 
 .textoStory {
@@ -125,6 +125,7 @@ body {
 #tazaSobre {
     width: 400px;
     height: auto;
+    margin-top: 50%;
 }
 
 .titleSecCup {
@@ -146,6 +147,7 @@ body {
 }
 
 .cafeRojo {
+    margin-top: 50%;
     width: 120px;
     height: auto;
 }
@@ -161,44 +163,42 @@ body {
 }
 
 
-.boxOne {
-    position: absolute; 
-    top: 50px;
-    left: 50px;
-    width: 300px;
-    height: 500px;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 5px;
-    padding: 20px;
-    color: black;
-    text-align: center;
-    
+
+
+.contenedorCajas {
+    position: relative;
+    top: 1000px;
+    display: flex;
+    gap: 10%;
+    margin: 380px   
 }
 
-.secondBox {
-    position: absolute; 
-    top: 50px;
-    left: 600px;
-    width: 300px;
-    height: 500px;
-    background-color: white;
+
+.boxes {
+    font-size: 18px;
+    font-family: sans-serif;
+    width: 40vw;
+    height: 45vh;
+    background-color: black;
     border-radius: 5px;
-    padding: 20px;
-    color: black;
-    text-align: center;
-    
+    color: white;
+    border: 3px solid #efb810;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /*Lleva el texto a la mitad del recuadro, verticalmente*/
+    align-items: center; /*Lleva el texto a la mitad del recuadro, horizontalmente*/
+    gap: 20%;
 }
 
-.thirdBox {
-    position: absolute; 
-    top: 50px;
-    left: 1000px;
-    width: 300px;
-    height: 500px;
-    background-color: white;
-    border-radius: 5px;
-    padding: 20px;
+
+.learnBoxes {
+    width: 140px;
+    height: 40px;
     color: black;
-    text-align: center;
-    
+    background-color:#efb810;
+    border-color: #efb810;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
