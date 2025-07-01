@@ -66,11 +66,19 @@ body {
     position: absolute;
     font-size: 0.677vw;
     display: flex;
-    flex-direction: row;
+    flex-direction: row; /*Posiciona cada h1 en una fila horizontal*/
     gap: 3.125vw;
     top: 1.296vh;
     right: 14vw;
     font-family: sans-serif;
+}
+
+.contenedorMenu h1:hover {
+    text-decoration: underline;
+    text-decoration-color:#efb810;
+
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.5vh;
 }
 
 
@@ -190,23 +198,35 @@ body {
     font-family: passengerDisplayBolt;
     color: white;
     top: 285vh;
-    left: 5vw;
+    left: 8vw;
     font-size: 90px;
 }
 
 .cafeRojo {
-    width: 120px;
+    position: relative;
+    top: 195vh;
+    left: 22vw;
+    width: 6.25vw;
     height: auto;
+    z-index: 1;
 }
 
 .whiteCup {
-    width: 120px;
+    position: relative;
+    top: 195vh;
+    left: 40.3vw;
+    width: 6.25vw;
     height: auto;
+    z-index: 1;
 }
 
 .blackCoffee {
-    width: 120px;
+    position: relative;
+    width: 6.25vw;
     height: auto;
+    top: 195vh;
+    z-index: 1;
+    left: 58.9vw;
 }
 
 
@@ -235,8 +255,9 @@ body {
     flex-direction: column;
     justify-content: center; /*Lleva el texto a la mitad del recuadro, verticalmente*/
     align-items: center; /*Lleva el texto a la mitad del recuadro, horizontalmente*/
-    gap: 20%;
+    gap: 20%; /*Creo un espacio entre las filas para que se viera más separado el texto*/
 }
+
 .boxes h3 {
     display: flex;
     flex-direction: column;
@@ -256,3 +277,109 @@ body {
     justify-content: center;
 }
 
+
+
+.aboutUs {
+    font-family: sans-serif;
+    position: absolute;
+    left: 19vw;
+    color: white;
+    top: 390vh;
+    font-size: 1.7vw;
+    height: auto;
+    
+}
+
+.US {
+    color: #efb810;
+}
+
+.contactUs {
+    font-family: sans-serif;
+    position: absolute;
+    left: 43.5vw;
+    color: white;
+    top: 390vh;
+    font-size: 1.7vw;
+    height: auto;
+}
+
+.contactUs span {
+    color: #efb810;
+}
+
+.openingH {
+
+    font-family: sans-serif;
+    position: absolute;
+    left: 67vw;
+    color: white;
+    top: 390vh;
+    font-size: 1.7vw;
+    height: auto;
+}
+
+.openingH span {
+    color:#efb810;
+}
+
+
+#linea1 {
+    position: absolute;
+    top: 375vh;
+    width: 35%;
+    height: 2px;
+    left: 32.5vw;
+    background-color: #efb810;
+}
+
+
+#texto1 {
+    position: absolute;
+    color: white;
+    top: 400vh;
+    left:13vw;
+    font-size: 1.4vw;
+    text-align: center;
+}
+
+
+#texto2 {
+    position: absolute;
+    color: white;
+    top: 400vh;
+    left: 39vw;
+    font-size: 1.4vw;
+    text-align: center;
+}
+
+
+#texto3 {
+    position: absolute;
+    color: white;
+    top: 400vh;
+    left: 65vw;
+    font-size: 1.4vw;
+    text-align: center;
+}
+
+#linea2 {
+    position: absolute;
+    top: 420vh;
+    width: 35%;
+    height: 2px;
+    left: 32.5vw;
+    background-color: #efb810;
+}
+
+#copyR {
+    position: absolute;
+    top: 423vh;
+    left: 42vw;
+    font-size: 1vw;
+    color: white;
+}
+
+#copyR span{
+    color: #efb810;
+}
