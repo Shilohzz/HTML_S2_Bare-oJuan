@@ -9,6 +9,13 @@
 }
 
 
+a {
+
+    color: inherit;
+    text-decoration: none;
+}
+
+
 * {
     margin: 0; /*margin y padding en 0 para eliminar los bordes*/ 
     padding: 0;
@@ -19,7 +26,7 @@
 body {
     position: relative;
     background-color: black;
-    height: 5000px;
+    height: 4600px;
     background-size: cover;
 }
 
@@ -197,15 +204,15 @@ body {
     position: absolute;
     font-family: passengerDisplayBolt;
     color: white;
-    top: 285vh;
-    left: 8vw;
-    font-size: 90px;
+    top: 275vh;
+    left: 6vw;
+    font-size: 8vw;
 }
 
 .cafeRojo {
     position: relative;
-    top: 195vh;
-    left: 22vw;
+    top: 0vh;
+    left: 0vw;
     width: 6.25vw;
     height: auto;
     z-index: 1;
@@ -213,8 +220,8 @@ body {
 
 .whiteCup {
     position: relative;
-    top: 195vh;
-    left: 40.3vw;
+    top: 0vh;
+    left: 0vw;
     width: 6.25vw;
     height: auto;
     z-index: 1;
@@ -224,31 +231,30 @@ body {
     position: relative;
     width: 6.25vw;
     height: auto;
-    top: 195vh;
+    top: 0vh;
     z-index: 1;
-    left: 58.9vw;
+    left: 0vw;
 }
-
 
 
 
 .contenedorCajas {
     position: relative;
-    top: 1750px;
+    top: 162.04vh;
     display: flex;
     gap: 10%;
-    margin: 310px   
+    margin: 15.625vw  
 }
 
 
 .boxes {
-    padding-top: 3%;
-    font-size: 18px;
+    padding-bottom: 8%;
+    font-size: 0.9375vw;
     font-family: sans-serif;
     width: 40vw;
     height: 45vh;
     background-color: black;
-    border-radius: 5px;
+    border-radius: 1%;
     color: white;
     border: 3px solid #efb810;
     display: flex;
